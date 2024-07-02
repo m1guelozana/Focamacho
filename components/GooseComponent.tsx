@@ -21,7 +21,7 @@ const GooseComponent: React.FC = () => {
       const randomIndex = Math.floor(Math.random() * audioUrls.length);
       return audioUrls[randomIndex];
     };
-
+    //coment to deploy
     // Inicializa o áudio de fundo
     const music = new Audio(getRandomAudioUrl());
     music.loop = true;
