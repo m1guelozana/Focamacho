@@ -1,0 +1,11 @@
+.custom-cursor {
+  position: absolute;
+  display: none; /* Inicialmente oculto */
+  pointer-events: none; /* Não interfere com eventos de clique */
+  z-index: 999; /* Garante estar acima dos outros elementos */
+}
+
+.custom-cursor img {
+  width: 2px; /* Tamanho do cursor */
+  height: 2px; /* Tamanho do cursor */
+}
