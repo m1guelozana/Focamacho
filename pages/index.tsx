@@ -19,7 +19,7 @@ const Index = () => {
         {showFocamacho && (
           <>
             <img
-              src="/path-to-person-photo.png"
+              src="/path-to-person-photo.gif"
               alt="Person"
               className="rounded-full w-40 h-40 cursor-pointer"
               onClick={handleToggle}
