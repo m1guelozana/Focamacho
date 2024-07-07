@@ -21,7 +21,7 @@ const Index = () => {
             <img
               src="/path-to-person-photo.gif"
               alt="Person"
-              className="rounded-full w-40 h-40 cursor-pointer"
+              className="rounded-full w-40 h-40 cursor-pointer object-fill"
               onClick={handleToggle}
             />
             <div
